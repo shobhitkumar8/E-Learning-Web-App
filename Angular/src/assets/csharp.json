@@ -1,0 +1,165 @@
+{
+    "questions": [{
+            "questionText": "Which of the following assemblies can be stored in Global Assembly Cache?",
+            "options": [{
+                    "text": "Private Assemblies"
+                },
+                {
+                    "text": "Friend Assemblies"
+                },
+                {
+                    "text": "Public Assemblies"
+                },
+                {
+                    "text": "Shared Assemblies",
+                    "correct": true
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        },
+        {
+            "questionText": "Which of the following .NET components can be used to remove unused references from the managed heap?",
+            "options": [{
+                    "text": "Language Infrastructure"
+                },
+                {
+                    "text": "CLR"
+                },
+                {
+                    "text": "Garbage Collector",
+                    "correct": true
+                },
+                {
+                    "text": "Class Loader"
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "Which of the following utilities can be used to compile managed assemblies into processor-specific native code?",
+            "options": [{
+                    "text": "gacutil"
+                },
+                {
+                    "text": "ngen",
+                    "correct": true
+                },
+                {
+                    "text": "dumpbin"
+                },
+                {
+                    "text": "ildasm"
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "Which of the following is NOT an Arithmetic operator in C#.NET?",
+            "options": [{
+                    "text": "** (Double Star)",
+                    "correct": true
+                },
+                {
+                    "text": "+ (Plus)"
+                },
+                {
+                    "text": "/ (Divide)"
+                },
+                {
+                    "text": "% (Modulo)"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "Which of the following statements is correct about an interface used in C#.NET?",
+            "options": [{
+                    "text": "If a class implements an interface partially, then it should be an abstract class.",
+                    "correct": true
+                },
+                {
+                    "text": "A class cannot implement an interface partially."
+                },
+                {
+                    "text": "An interface can contain static methods."
+                },
+                {
+                    "text": "An interface can contain static data."
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "What does the term <strong>immutable</strong> means in term of string objects?",
+            "options": [{
+                    "text": "We can modify characters included in the string",
+                    "correct": true
+                },
+                {
+                    "text": "protWe cannot modify characters contained in the stringected"
+                },
+                {
+                    "text": "We cannot perform various operation of comparison, inserting, appending etc"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "Which of the following is NOT a .NET Exception class?",
+            "options": [{
+                    "text": "Exception"
+                },
+                {
+                    "text": "StackMemoryException",
+                    "correct": true
+                },
+                {
+                    "text": "DivideByZeroException"
+                },
+                {
+                    "text": "InvalidOperationException"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
+            "options": [{
+                    "text": "Compiler"
+                },
+                {
+                    "text": "CLR",
+                    "correct": true
+                },
+                {
+                    "text": "Operating system"
+                },
+                {
+                    "text": "Linker"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "Which of the following does NOT represent Integer?",
+            "options": [{
+                    "text": "Char",
+                    "correct": true
+                },
+                {
+                    "text": "Byte"
+                },
+                {
+                    "text": "Short"
+                },
+                {
+                    "text": "Long"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        }
+    ]
+}

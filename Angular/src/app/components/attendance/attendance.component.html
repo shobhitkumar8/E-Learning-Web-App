@@ -1,0 +1,49 @@
+<section class="dashboard-wrap mtb-40">
+    <div class="container">
+          <div class="body-content">
+          <div class="row">
+            <div class="col-md-3">
+                      <div class="dash-left">
+                          <ul>
+                            <li class="active"><a routerLink="/teacherdashboard" routerLinkActive="active" class="nav-link">Dashboard</a></li>
+                            <li class="active"><a routerLink="/attendance" routerLinkActive="active" class="nav-link">Student's Attendance</a></li>                              
+                              <li><a (click)="logout()">Logout</a></li>
+                          </ul>
+                      </div>   
+                  </div>
+                  <div class="col-md-9">
+                      <div class="dash-right">
+                       
+                          <table class="table table-bordered table-striped">
+                            <tr>
+                                <th>Student Id</th>                               
+                                <th>Student Name</th>                               
+                            </tr>
+                            <tr *ngFor="let post of allpost">
+                                <td>{{post.Student_ID}}</td>                              
+                                <td>{{post.Student_Name}}</td>
+                            </tr>
+                          </table>
+                        </div>   
+                  </div>
+          </div>
+          </div>
+    </div>
+  </section>
+   <!-- <div class="dash-header">
+                            <div class="dash-title">
+                                <h1>{{title}}</h1>
+                            </div>
+                            <div class="dash-nav">
+                                <a [routerLink]="['/admin/blogs/create']" class="btn btn-success">Add Post</a>
+                            </div>
+                          </div> -->
+ <!-- <th>Image</th> -->
+  <!-- <th>Created At</th> -->
+                                <!-- <th>Action</th> -->
+                                  <!-- <td><img src="../../../assets/images/{{post.Image}}" ></td> --> 
+                                   <!-- {{error}} -->
+
+
+
+

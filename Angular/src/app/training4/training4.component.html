@@ -1,0 +1,18 @@
+<div style="text-align:center"><div id="instructions">
+    <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px" controls preload="none"
+      poster='../../assets/video/Python.jpg'
+      data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+      <!-- <source src="https://www.youtube.com/watch?v=k5E2AVpwsko&t=2255s.mp4" type='video/mp4' /> -->
+      <source src="../../assets/video/Python.webm" type='video/webm' /> 
+      <source src="../../assets/video/Python.mp4" type='video/mp4' />
+    </video>
+    <br><br>
+    <button (click)="playPause()">Play/Pause</button>&nbsp;
+    <button (click)="makeBig()">Big</button>&nbsp;
+    <!-- <button (click)="makeSmall()">Small</button>&nbsp; -->
+    <button (click)="makeNormal()">Normal</button>&nbsp;
+    <!-- <button (click)="restart();">Restart</button>&nbsp;
+    <button (click)="skip(-10)">Rewind</button>&nbsp; -->
+    <button (click)="skip(10)">Fastforward</button>
+  </div>
+  </div>
